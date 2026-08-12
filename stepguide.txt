@@ -1,0 +1,14 @@
+#make sure git installed on the local system
+git config --global user.email "shaj@mail.com"
+git config --global user.name "Shajahan"
+git init #only once for that folder
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/abdulshajahan/tfauglab.git
+git push -u origin main
+
+#additional files has to pushed to githubrepo
+git add .
+git commit -m "first commit"
+git push -u origin main
